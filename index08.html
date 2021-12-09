@@ -81,22 +81,30 @@
 					</tr>
 					<tr>
 						<td>Rut cliente</td>
-						<td><input type="text" name="nom" required></td>
+						<td><input type="text" name="rut" required></td>
 					</tr>
 					<tr>
 						<td>Nombre del producto</td>
-						<td><input type="text" name="nom" required></td>
+						<td>
+			              <select name="prod">
+			                <option>Tazon de ceramica</option>
+			                <option>Calendario oficial 2022</option>
+			                <option>Clash Bible</option>
+			                <option>Polera personalizada</option>
+			                <option>Poleron personalizado</option>
+			              </select>
+			             </td>
 					</tr>
 					<tr>
 						<td>Cantidad del producto</td>
-						<td><input type="number" name="num" min="1" max="100"></td>
+						<td><input type="number" name="num" min="1" max="100" value="1"></td>
 					</tr>
 					<tr>
 						<td>Comentarios</td>
 						<td><textarea name="obj" rows="3" cols="20"></textarea></td>
 					</tr>
 					<tr>
-						<td colspan="2"><input type="submit" name="boton" value="enviar"></td>
+						<td colspan="2"><input type="submit" name="boton" value="Enviar"></td>
 					</tr>
 				</table>		
 			</form>
